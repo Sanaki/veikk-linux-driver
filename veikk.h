@@ -12,14 +12,14 @@
 #include <linux/types.h>
 #include <linux/usb.h>
 
-#define VEIKK_VENDOR_ID         0x2FEB
+#define VEIKK_VENDOR_ID         0x5543
 
 #define VEIKK_DRIVER_VERSION    "2.0"
 #define VEIKK_DRIVER_AUTHOR     "Jonathan Lam <jlam55555@gmail.com>"
 #define VEIKK_DRIVER_DESC       "USB VEIKK drawing tablet driver"
 #define VEIKK_DRIVER_LICENSE    "GPL"
 
-#define VEIKK_PEN_REPORT        0x0001
+#define VEIKK_PEN_REPORT        0x0009
 #define VEIKK_STYLUS_REPORT     0x0002  // equivalent to pen report
 
 // supported module parameter types
